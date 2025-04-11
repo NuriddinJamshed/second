@@ -1,0 +1,545 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-image: url('/img/Rectangle\ 19.png');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    color: white;
+    height: 133.7vh;
+    width: 90%;
+    padding: 0 5%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sign button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FFB800;
+}
+
+.sectionHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionHeader img {
+    width: 60%;
+}
+
+.leftHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    position: relative;
+    z-index: 2;
+}
+
+.leftHeader h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.leftHeader p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.leftHeader samp{
+    font-size: 32px;
+    font-weight: 900;
+    color: #FFB800;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.leftHeader button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFB800;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.imgCenter{
+    width: 50%;
+    margin: 150px 25%;
+}
+
+.main{  
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.section-1 img{
+    width: 50%;
+}
+.section-1 .right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333D3D;
+}
+
+.images{
+    display: flex;
+    gap: 20px;
+}
+
+.section-1 .left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.btnMain{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #01BDAA;
+    border-radius: 10px;
+    border: none;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    gap: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.card{
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.listDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.list{
+    font-size: 14px;
+    color: #333D3D;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.div-text h4 samp{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.prise-line{
+    display: flex;
+    gap: 20px;
+}
+
+.prise-line p{
+    text-decoration: line-through;
+    color: #333D3D;
+    font-weight: 700;
+}
+
+.subBtn{
+    color: #01BDAA;
+    width: 90%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #01BDAA;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.card-2{
+    width: 25%;
+    background: linear-gradient(360deg, rgba(1, 189, 170, 0.34) -295.35%, rgba(39, 190, 175, 0) 84.19%);
+    border: 1px solid #01BDAA;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.subBtn-2{
+    background-color: #01BDAA;
+    color: #fff;
+}
+
+.btn{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-1{
+    color: #410182;
+    background-color: #D9CCE6;
+}
+.btn-2{
+    color: #01BDAA;
+    background-color: #CCF2EE;
+}
+.btn-3{
+    color: #FE356F;
+    background-color: #FFD7E2;
+}
+
+.img-z{
+    position: relative;
+    z-index: 0;
+    right: 0px;
+    left: 810px;
+    width: 40%;
+}
+
+.dialog{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: auto;
+    bottom: 480px;
+    background-color: #fff;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 3px 2px 10px 2px #FFB800;
+    border-radius: 10px;
+}
+
+.icons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconDiv{
+    width: 22%;
+}
+
+.selectors svg{
+    width: 20px;
+    height: 20px;
+}
+
+.section-4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.selectors{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.select{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 2px 3px 4px #ccc;
+    border-radius: 5px;
+}
+
+.select h2{
+    color: #333D3D;
+    font-size: 24px;
+}
+
+.footer{
+    background-image: url("/img/Rectangle\ 18.png");
+    height: 220vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.titleFooter{
+    color: #fff;
+    font-size: 48px;
+}
+
+.section1Footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    padding: 25% 0 0 0;
+}
+
+.section1Footer img{
+    width: 50%;
+}
+
+.rightAs{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.rightAs p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.rightAs img{
+    width: 80%;
+}
+
+.rightAs samp{
+    font-size: 36px;
+    color: #FFB800;
+    font-weight: bold;
+}
+
+.rightAsaid{
+    width: 40%;
+}
+
+.description{
+    color: #333D3D;
+}
+
+.getBtn{
+    padding: 10px;
+    background-color: #FFB800;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo{
+    width: 20%;
+}
+
+.descript{
+    color: #fff;
+    font-size: 18px;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+}
+.bottomFooter div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+@media (max-width: 400px){
+    .header{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+    .nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nav img{
+        width: 40%;
+    }
+    .nav a{
+        font-size: 22px;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sign{
+        flex-direction: column;
+    }
+    .sectionHeader{
+        flex-direction: column;
+    }
+    .leftHeader{
+        width: 100%;
+    }
+    .sectionHeader img{
+        width: 100%;
+    }
+    .imgCenter{
+        width: 90%;
+        margin: 5%;
+    }
+    .section-1{
+        flex-direction: column;
+    }
+    .section-1 .right{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .section-1 img{
+        width: 100%;
+    }
+    .images{
+        width: 90%;
+    }
+    .images img{
+        width: 22%;
+    }
+    .section-1 .left{
+        width: 100%;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .dialog{
+        position: static;
+        height: auto;
+        padding: 20px;
+    }
+    .img-z{
+        display: none;
+    }
+    .icons{
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .iconDiv{
+        width: 100%;
+    }
+    .select{
+        width: 100%;
+    }
+    .section1Footer{
+        flex-direction: column;
+    }
+    .rightAs{
+        width: 100%;
+    }
+    .section1Footer img{
+        width: 100%;
+    }
+    .getBtn{
+        width: 100%;
+    }
+    .bottomFooter{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer{
+        height: auto;
+        background-position: center;
+        gap: 30px;
+    }
+    .rightAsaid{
+        width: 100%;
+    }
+    .bottomFooter div{
+        width: 100%;
+        align-items: center;
+    }
+    .iconLines{
+        display: flex;
+        flex-direction: row;
+    }
+}
